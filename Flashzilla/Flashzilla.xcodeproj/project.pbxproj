@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180D40B9267C09BD00C46354 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D40B8267C09BD00C46354 /* AppDelegate.swift */; };
+		180D40BB267C09BD00C46354 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D40BA267C09BD00C46354 /* SceneDelegate.swift */; };
+		180D40BD267C09BD00C46354 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D40BC267C09BD00C46354 /* ContentView.swift */; };
+		180D40BF267C09BF00C46354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180D40BE267C09BF00C46354 /* Assets.xcassets */; };
+		180D40C2267C09BF00C46354 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180D40C1267C09BF00C46354 /* Preview Assets.xcassets */; };
+		180D40C5267C09BF00C46354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180D40C3267C09BF00C46354 /* LaunchScreen.storyboard */; };
+		180D40D0267C09C000C46354 /* FlashzillaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D40CF267C09C000C46354 /* FlashzillaTests.swift */; };
+		180D40DB267C09C000C46354 /* FlashzillaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D40DA267C09C000C46354 /* FlashzillaUITests.swift */; };
+		180D40EC267C09D300C46354 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D40EB267C09D300C46354 /* Card.swift */; };
+		180D4101267C1ACD00C46354 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D4100267C1ACD00C46354 /* CardView.swift */; };
+		180D4109267D741500C46354 /* EditCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D4108267D741500C46354 /* EditCards.swift */; };
+		180D410E267E72EC00C46354 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D410D267E72EC00C46354 /* Setting.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		180D40CC267C09C000C46354 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180D40AD267C09BD00C46354 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180D40B4267C09BD00C46354;
+			remoteInfo = Flashzilla;
+		};
+		180D40D7267C09C000C46354 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180D40AD267C09BD00C46354 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180D40B4267C09BD00C46354;
+			remoteInfo = Flashzilla;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180D40B5267C09BD00C46354 /* Flashzilla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashzilla.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		180D40B8267C09BD00C46354 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		180D40BA267C09BD00C46354 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		180D40BC267C09BD00C46354 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		180D40BE267C09BF00C46354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		180D40C1267C09BF00C46354 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		180D40C4267C09BF00C46354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		180D40C6267C09BF00C46354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180D40CB267C09C000C46354 /* FlashzillaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashzillaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		180D40CF267C09C000C46354 /* FlashzillaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashzillaTests.swift; sourceTree = "<group>"; };
+		180D40D1267C09C000C46354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180D40D6267C09C000C46354 /* FlashzillaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashzillaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		180D40DA267C09C000C46354 /* FlashzillaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashzillaUITests.swift; sourceTree = "<group>"; };
+		180D40DC267C09C000C46354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180D40EB267C09D300C46354 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		180D4100267C1ACD00C46354 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		180D4108267D741500C46354 /* EditCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCards.swift; sourceTree = "<group>"; };
+		180D410D267E72EC00C46354 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180D40B2267C09BD00C46354 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180D40C8267C09C000C46354 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180D40D3267C09C000C46354 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180D40AC267C09BD00C46354 = {
+			isa = PBXGroup;
+			children = (
+				180D40B7267C09BD00C46354 /* Flashzilla */,
+				180D40CE267C09C000C46354 /* FlashzillaTests */,
+				180D40D9267C09C000C46354 /* FlashzillaUITests */,
+				180D40B6267C09BD00C46354 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		180D40B6267C09BD00C46354 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180D40B5267C09BD00C46354 /* Flashzilla.app */,
+				180D40CB267C09C000C46354 /* FlashzillaTests.xctest */,
+				180D40D6267C09C000C46354 /* FlashzillaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180D40B7267C09BD00C46354 /* Flashzilla */ = {
+			isa = PBXGroup;
+			children = (
+				180D4100267C1ACD00C46354 /* CardView.swift */,
+				180D4108267D741500C46354 /* EditCards.swift */,
+				180D410D267E72EC00C46354 /* Setting.swift */,
+				180D40B8267C09BD00C46354 /* AppDelegate.swift */,
+				180D40BA267C09BD00C46354 /* SceneDelegate.swift */,
+				180D40BC267C09BD00C46354 /* ContentView.swift */,
+				180D40EB267C09D300C46354 /* Card.swift */,
+				180D40BE267C09BF00C46354 /* Assets.xcassets */,
+				180D40C3267C09BF00C46354 /* LaunchScreen.storyboard */,
+				180D40C6267C09BF00C46354 /* Info.plist */,
+				180D40C0267C09BF00C46354 /* Preview Content */,
+			);
+			path = Flashzilla;
+			sourceTree = "<group>";
+		};
+		180D40C0267C09BF00C46354 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				180D40C1267C09BF00C46354 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		180D40CE267C09C000C46354 /* FlashzillaTests */ = {
+			isa = PBXGroup;
+			children = (
+				180D40CF267C09C000C46354 /* FlashzillaTests.swift */,
+				180D40D1267C09C000C46354 /* Info.plist */,
+			);
+			path = FlashzillaTests;
+			sourceTree = "<group>";
+		};
+		180D40D9267C09C000C46354 /* FlashzillaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				180D40DA267C09C000C46354 /* FlashzillaUITests.swift */,
+				180D40DC267C09C000C46354 /* Info.plist */,
+			);
+			path = FlashzillaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180D40B4267C09BD00C46354 /* Flashzilla */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180D40DF267C09C000C46354 /* Build configuration list for PBXNativeTarget "Flashzilla" */;
+			buildPhases = (
+				180D40B1267C09BD00C46354 /* Sources */,
+				180D40B2267C09BD00C46354 /* Frameworks */,
+				180D40B3267C09BD00C46354 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flashzilla;
+			productName = Flashzilla;
+			productReference = 180D40B5267C09BD00C46354 /* Flashzilla.app */;
+			productType = "com.apple.product-type.application";
+		};
+		180D40CA267C09C000C46354 /* FlashzillaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180D40E2267C09C000C46354 /* Build configuration list for PBXNativeTarget "FlashzillaTests" */;
+			buildPhases = (
+				180D40C7267C09C000C46354 /* Sources */,
+				180D40C8267C09C000C46354 /* Frameworks */,
+				180D40C9267C09C000C46354 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180D40CD267C09C000C46354 /* PBXTargetDependency */,
+			);
+			name = FlashzillaTests;
+			productName = FlashzillaTests;
+			productReference = 180D40CB267C09C000C46354 /* FlashzillaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		180D40D5267C09C000C46354 /* FlashzillaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180D40E5267C09C000C46354 /* Build configuration list for PBXNativeTarget "FlashzillaUITests" */;
+			buildPhases = (
+				180D40D2267C09C000C46354 /* Sources */,
+				180D40D3267C09C000C46354 /* Frameworks */,
+				180D40D4267C09C000C46354 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180D40D8267C09C000C46354 /* PBXTargetDependency */,
+			);
+			name = FlashzillaUITests;
+			productName = FlashzillaUITests;
+			productReference = 180D40D6267C09C000C46354 /* FlashzillaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180D40AD267C09BD00C46354 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					180D40B4267C09BD00C46354 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					180D40CA267C09C000C46354 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 180D40B4267C09BD00C46354;
+					};
+					180D40D5267C09C000C46354 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 180D40B4267C09BD00C46354;
+					};
+				};
+			};
+			buildConfigurationList = 180D40B0267C09BD00C46354 /* Build configuration list for PBXProject "Flashzilla" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 180D40AC267C09BD00C46354;
+			productRefGroup = 180D40B6267C09BD00C46354 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180D40B4267C09BD00C46354 /* Flashzilla */,
+				180D40CA267C09C000C46354 /* FlashzillaTests */,
+				180D40D5267C09C000C46354 /* FlashzillaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180D40B3267C09BD00C46354 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180D40C5267C09BF00C46354 /* LaunchScreen.storyboard in Resources */,
+				180D40C2267C09BF00C46354 /* Preview Assets.xcassets in Resources */,
+				180D40BF267C09BF00C46354 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180D40C9267C09C000C46354 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180D40D4267C09C000C46354 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180D40B1267C09BD00C46354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180D40B9267C09BD00C46354 /* AppDelegate.swift in Sources */,
+				180D40BB267C09BD00C46354 /* SceneDelegate.swift in Sources */,
+				180D40BD267C09BD00C46354 /* ContentView.swift in Sources */,
+				180D4109267D741500C46354 /* EditCards.swift in Sources */,
+				180D410E267E72EC00C46354 /* Setting.swift in Sources */,
+				180D40EC267C09D300C46354 /* Card.swift in Sources */,
+				180D4101267C1ACD00C46354 /* CardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180D40C7267C09C000C46354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180D40D0267C09C000C46354 /* FlashzillaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180D40D2267C09C000C46354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180D40DB267C09C000C46354 /* FlashzillaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		180D40CD267C09C000C46354 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180D40B4267C09BD00C46354 /* Flashzilla */;
+			targetProxy = 180D40CC267C09C000C46354 /* PBXContainerItemProxy */;
+		};
+		180D40D8267C09C000C46354 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180D40B4267C09BD00C46354 /* Flashzilla */;
+			targetProxy = 180D40D7267C09C000C46354 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		180D40C3267C09BF00C46354 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180D40C4267C09BF00C46354 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		180D40DD267C09C000C46354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		180D40DE267C09C000C46354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		180D40E0267C09C000C46354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Flashzilla/Preview Content\"";
+				DEVELOPMENT_TEAM = JRN5RCY2Y2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Flashzilla/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cornellappdev.Flashzilla;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		180D40E1267C09C000C46354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Flashzilla/Preview Content\"";
+				DEVELOPMENT_TEAM = JRN5RCY2Y2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Flashzilla/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cornellappdev.Flashzilla;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		180D40E3267C09C000C46354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JRN5RCY2Y2;
+				INFOPLIST_FILE = FlashzillaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cornellappdev.FlashzillaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flashzilla.app/Flashzilla";
+			};
+			name = Debug;
+		};
+		180D40E4267C09C000C46354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JRN5RCY2Y2;
+				INFOPLIST_FILE = FlashzillaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cornellappdev.FlashzillaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flashzilla.app/Flashzilla";
+			};
+			name = Release;
+		};
+		180D40E6267C09C000C46354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JRN5RCY2Y2;
+				INFOPLIST_FILE = FlashzillaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cornellappdev.FlashzillaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Flashzilla;
+			};
+			name = Debug;
+		};
+		180D40E7267C09C000C46354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JRN5RCY2Y2;
+				INFOPLIST_FILE = FlashzillaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cornellappdev.FlashzillaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Flashzilla;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180D40B0267C09BD00C46354 /* Build configuration list for PBXProject "Flashzilla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180D40DD267C09C000C46354 /* Debug */,
+				180D40DE267C09C000C46354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180D40DF267C09C000C46354 /* Build configuration list for PBXNativeTarget "Flashzilla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180D40E0267C09C000C46354 /* Debug */,
+				180D40E1267C09C000C46354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180D40E2267C09C000C46354 /* Build configuration list for PBXNativeTarget "FlashzillaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180D40E3267C09C000C46354 /* Debug */,
+				180D40E4267C09C000C46354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180D40E5267C09C000C46354 /* Build configuration list for PBXNativeTarget "FlashzillaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180D40E6267C09C000C46354 /* Debug */,
+				180D40E7267C09C000C46354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180D40AD267C09BD00C46354 /* Project object */;
+}
